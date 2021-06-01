@@ -1,4 +1,4 @@
-Frontend Mentor Challenge 
+# Frontend Mentor Challenge 
 
 ## Profile card component
 
