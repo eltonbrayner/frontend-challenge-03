@@ -9,11 +9,9 @@
 
 ## Author
 
-- Elton Brayner
+- [Elton Brayner](https://www.linkedin.com/in/eltonbrayner/)
 
-- [LinkedIn](https://www.linkedin.com/in/eltonbrayner/)
-
-# Profile card component
+##  Profile card component
 
 - [Preview](https://eltonbrayner.github.io/frontend-challenge-03/)
 
