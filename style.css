@@ -16,8 +16,7 @@ body {
   font-family: 'Kumbh Sans', sans-serif;
   color: var(--text);
   background-color: var(--main-background);
-  background-image: url('./images/bg-pattern-top.svg'),
-    url('./images/bg-pattern-bottom.svg');
+  background-image: url('bg-pattern-top.svg'), url('bg-pattern-bottom.svg');
   background-size: cover;
   background-position: right 50vw top -90vh, left 50vw top 41vh;
 
@@ -60,7 +59,7 @@ body {
 
 .top {
   grid-area: a;
-  background-image: url('./images/bg-pattern-card.svg');
+  background-image: url('bg-pattern-card.svg');
 }
 
 .bottom {
@@ -108,13 +107,4 @@ body {
   .main {
     width: 20rem;
   }
-}
-
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-
-.attribution a {
-  color: hsl(228, 45%, 44%);
 }
