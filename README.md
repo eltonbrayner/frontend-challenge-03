@@ -1,6 +1,6 @@
-# Frontend Mentor - Profile card component
+Frontend Mentor Challenge 
 
-## Stats preview card component
+## Profile card component
 
 ## Display Type
 
@@ -12,6 +12,7 @@
 - Elton Brayner
 
 - [LinkedIn](https://www.linkedin.com/in/eltonbrayner/)
+
 # Profile card component
 
 - [Preview](https://eltonbrayner.github.io/frontend-challenge-03/)
