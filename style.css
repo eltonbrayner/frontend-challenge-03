@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+:root {
+  --main-background: hsl(185, 75%, 39%);
+  --text-title: hsl(229, 23%, 23%);
+  --text-subtitle: hsl(227, 10%, 46%);
+  --text: hsl(0, 0%, 59%);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-size: 18px;
+  font-family: 'Kumbh Sans', sans-serif;
+  color: var(--text);
+  background-color: var(--main-background);
+  background-image: url('/images/bg-pattern-top.svg'),
+    url('/images/bg-pattern-bottom.svg');
+  background-size: cover;
+  background-position: right 50vw top -90vh, left 50vw top 41vh;
+
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  background-color: #fff;
+  width: 27rem;
+  height: 25rem;
+
+  border-radius: 1rem;
+  overflow: hidden;
+
+  text-align: center;
+
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+  grid-template-areas:
+    'a'
+    'a'
+    'b'
+    'b'
+    'b';
+}
+
+.main img {
+  border-radius: 50%;
+  border: solid 6px #fff;
+
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -90%);
+}
+
+.top {
+  grid-area: a;
+  background-image: url('./images/bg-pattern-card.svg');
+}
+
+.bottom {
+  grid-area: b;
+}
+
+.profile {
+  height: 60%;
+}
+
+.profile .title {
+  padding-top: 4.5rem;
+}
+
+.profile .subtitle {
+  margin-top: 0.75rem;
+}
+
+.cards {
+  height: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  border-top: solid 1px var(--text);
+}
+
+.cards .cardBody {
+  display: block;
+  padding-top: 0.75rem;
+}
+
+.title .name,
+.card .cardTitle {
+  font-weight: bold;
+  color: var(--text-title);
+}
+
+.title .age {
+  font-weight: bold;
+  color: var(--text-subtitle);
+}
+
+@media (max-width: 32rem) {
+  .main {
+    width: 20rem;
+  }
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
